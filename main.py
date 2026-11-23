@@ -4,6 +4,18 @@
 Writes a single deadpan one-star review of the sun, an everyday essential,
 to /output/entry.txt. The review is fixed text: deterministic, no input,
 no network, no randomness.
+
+Craft: a deadpan complaint aimed at a thing that cannot be fixed -- the sun
+is too bright to look at and too hot to stand under, and complaining will
+not change a word of it. The review lists its grievances in a flat,
+matter-of-fact voice, then turns in the last words: "and still shows up
+every morning like it owns the place. One star." The final clause is the
+joke -- the sun's worst offence is simply showing up on time, every day,
+and the one-star verdict lands because nothing about it can be returned,
+repaired, or reviewed into behaving differently.
+
+Gate: the entry must be 1-160 characters (currently 124), a single line,
+and non-blank; main() asserts all three before writing.
 """
 
 import os
