@@ -1,28 +1,28 @@
 #!/usr/bin/env python3
 """One-Star Review of Something Essential.
 
-Writes a single deadpan one-star review of water, an everyday essential,
+Writes a single deadpan one-star review of gravity, an everyday essential,
 to /output/entry.txt. The review is fixed text: deterministic, no input,
 no network, no randomness.
 
-Craft: a deadpan complaint aimed at a thing that cannot be fixed — water
-has no taste, no colour, and no smell, yet the glass is always empty
-and the bill still arrives every month. The review lists its grievances
-in a flat, matter-of-fact voice, then turns in the last words: the worst
-offence is not the water itself but the monthly bill for something that
-is supposedly free and flavourless, and the one-star verdict lands
-because nothing about it can be returned, repaired, or reviewed into
-behaving differently.
+Craft: a deadpan complaint aimed at a force that never clocks out —
+gravity works around the clock and never takes a day off, yet the one
+thing it is reliably good at is dropping everything the moment it is no
+longer held. The review lists its grievances in a flat, matter-of-fact
+voice, then turns in the last words: the sting is that the most diligent
+worker in the universe is only ever noticed when something breaks, and
+the one-star verdict lands because nothing about it can be returned,
+repaired, or reviewed into behaving differently.
 
-Gate: the entry must be 1-160 characters (currently 123), a single line,
+Gate: the entry must be 1-160 characters (currently 127), a single line,
 and non-blank; main() asserts all three before writing.
 """
 
 import os
 
 ENTRY = (
-    "Water has no taste, no colour, and no smell, yet my glass is always "
-    "empty and the bill still arrives every month. One star."
+    "Gravity works around the clock, never takes a day off, and still "
+    "drops everything I own the second I stop holding it. One star."
 )
 
 
